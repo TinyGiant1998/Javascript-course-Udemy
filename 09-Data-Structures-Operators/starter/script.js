@@ -27,3 +27,84 @@ const restaurant = {
     },
   },
 };
+
+const getCode = str => str.slice(0, 3).toUpperCase();
+
+for (const flight of flights.split('+')) {
+  const [type, from, to, time] = flight.split(';');
+  const output = `${type.startsWith('_Delayed') ? '🔴' : ''}${type.replaceAll(
+    '_',
+    ' '
+  )} from ${getCode(from)} to ${getCode(to)} (${time.replace(
+    ':',
+    'h'
+  )})`.padStart(44);
+  console.log(output);
+}
+
+const saturday = [
+  'JavaScript Course',
+  'GitHub',
+  'GitGub CoPilot',
+  'GitHub Cloning',
+];
+
+const sunday = function () {
+  return saturday;
+};
+
+console.log(sunday());
+
+// Define to-do lists for each day of the week
+const todos = {
+  Monday: ['Meeting with team', 'Workout', 'Study JavaScript', 'Client call'],
+  Tuesday: ['Code review', 'Write blog post', 'Learn Git', 'React project'],
+  Wednesday: [
+    'Team meeting',
+    'Client presentation',
+    'JavaScript exercises',
+    'Catch up on reading',
+  ],
+  Thursday: [
+    'Prepare for presentation',
+    'Work on side project',
+    'Yoga',
+    'Write test cases',
+  ],
+  Friday: [
+    'Office lunch',
+    'Check emails',
+    'Work on main project',
+    'Watch JavaScript tutorial',
+  ],
+  Saturday: ['JavaScript Course', 'GitHub', 'GitHub CoPilot', 'GitHub Cloning'],
+  Sunday: [
+    'Review week tasks',
+    'Plan for next week',
+    'Clean workspace',
+    'Go for a walk',
+  ],
+};
+
+// Function to get the to-do list for any day
+function getTodoList(day) {
+  // Normalize the input day to ensure it's case insensitive
+  const normalizedDay =
+    day.charAt(0).toUpperCase() + day.slice(1).toLowerCase();
+
+  // Check if the day exists in the todos object
+  if (todos[normalizedDay]) {
+    return todos[normalizedDay];
+  } else {
+    return `No tasks found for ${day}.`;
+  }
+}
+
+// Example: Get the to-do list for Monday
+console.log(getTodoList('Monday'));
+
+// Example: Get the to-do list for Wednesday
+console.log(getTodoList('Wednesday'));
+
+// Example: Get the to-do list for a day that doesn't exist
+console.log(getTodoList('Friday'));
