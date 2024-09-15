@@ -1,0 +1,18 @@
+/* .signature {
+    font-family: 'Arial', sans-serif; /* You can use custom fonts here */
+    font-size: 18px;
+    color: #333; /* Dark gray color */
+    text-align: center; /* Center the text */
+    margin-top: 20px;
+    letter-spacing: 1px; /* Adds some spacing between letters */
+}
+
+.signature .username {
+    font-weight: bold; /* Makes the username bold */
+    color: #0077B5; /* You can use your preferred color, like Instagram's blue */
+}
+
+.signature .username:hover {
+    text-decoration: underline; /* Underline username on hover */
+    color: #005f86; /* Slightly darker shade on hover */
+} */
