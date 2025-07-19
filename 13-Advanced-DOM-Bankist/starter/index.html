@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Bankist | When Banking meets Minimalist</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <header class="header">
@@ -21,6 +22,8 @@
           alt="Bankist logo"
           class="nav__logo"
           id="logo"
+          designer="suraj"
+          data-version-number="1.0"
         />
         <ul class="nav__links">
           <li class="nav__item">
@@ -39,6 +42,8 @@
           </li>
         </ul>
       </nav>
+      <!-- Google trANSALTE -->
+      <div id="google_translate_element"></div>
 
       <div class="header__title">
         <h1>
@@ -161,7 +166,7 @@
             </svg>
           </div>
           <h5 class="operations__header">
-            Tranfser money to anyone, instantly! No fees, no BS.
+            Tranfer money to anyone, instantly! No fees, no BS.
           </h5>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -350,6 +355,28 @@
     </div>
     <div class="overlay hidden"></div>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+
+    <!--ChatBot-->
+    <div id="chat-container">
+      <div id="chat-box"></div>
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="send-btn">Send</button>
+    </div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: 'en',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          'google_translate_element'
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
   </body>
 </html>

@@ -36,18 +36,17 @@
 
 // // // // // // console.log(age);
 
-
-// // // // // // //continue and break 
+// // // // // // //continue and break
 // // // // // // console.log('-------Only String-------')
 // // // // // // for (let i = 0; i <suraj.length; i++){
-// // // // // //     if (typeof suraj[i] !== 'string') continue; 
-// // // // // //     console.log(suraj[i], typeof suraj[i]);  
+// // // // // //     if (typeof suraj[i] !== 'string') continue;
+// // // // // //     console.log(suraj[i], typeof suraj[i]);
 // // // // // // }
 
 // // // // // // console.log('-------Break with Number-------')
 // // // // // // for (let i = 0; i <suraj.length; i++){
-// // // // // //     if (typeof suraj[i] === 'number') break; 
-// // // // // //     console.log(suraj[i], typeof suraj[i]);  
+// // // // // //     if (typeof suraj[i] === 'number') break;
+// // // // // //     console.log(suraj[i], typeof suraj[i]);
 // // // // // // }
 
 // // // // // // const a1 = suraj.length;
@@ -56,7 +55,6 @@
 // // // // // // for (let i = a1 - 1; i >= 0; i--){
 // // // // // //     console.log(suraj[i]);
 // // // // // // }
-
 
 // // // // // // console.log("----------Loop inside of a loop----------")
 
@@ -67,19 +65,16 @@
 // // // // // //     }
 // // // // // // }
 
-
-
-// // // // // // // While loop 
-// // // // // // // comparing with while loop 
+// // // // // // // While loop
+// // // // // // // comparing with while loop
 // // // // // // // for (let rep = 1; rep <= 10; rep++){
 // // // // // // //     console.log(`Lifting weight repetition ${rep}`);
 // // // // // // // }
 
-
 // // // // // // let rep = 1;
 // // // // // // while (rep <= 10){
 // // // // // //     console.log(`Lifting weight repetition ${rep}`);
-// // // // // //     rep++; 
+// // // // // //     rep++;
 // // // // // // }
 
 // // // // // // let dice = Math.trunc(Math.random() * 6) + 1;
@@ -91,8 +86,6 @@
 // // // // // //     if (dice === 6)
 // // // // // //         console.log('Loop is about to end ____');
 // // // // // // }
-
-
 
 // // // // // //Problem to calculate Temperature Amplitude i.e. the difference between highest and lowest temperature
 // // // // // // const temperatures = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
@@ -112,8 +105,6 @@
 
 // // // // // // const amplitude = calcTemoAmplitude(temperatures);
 // // // // // // console.log(amplitude);
-
-
 
 // // // // // // const calcTemoAmplitudeNew = function (t1, t2) {
 // // // // // //     const temps = t1.concat(t2);
@@ -140,13 +131,11 @@
 // // // // // //         // value: Number (prompt('Degree celsius:'))
 // // // // // //         value : 10
 // // // // // //     }
- 
+
 // // // // // //     const kelvin = measurement.value + 273;
 // // // // // //     return kelvin;
 // // // // // // }
-// // // // // // console.log(measureKelvin()); 
-
-
+// // // // // // console.log(measureKelvin());
 
 // // // // // // const temperatures = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 
@@ -229,7 +218,7 @@
 // // // // // //     const now = 2024;
 // // // // // //     const age = now - birthyear;
 // // // // // //     return age;
- 
+
 // // // // // // }
 
 // // // // // // const myName = "Suraj";
@@ -270,8 +259,6 @@
 // // // // // //     console.log(d + c + b + a);
 // // // // // // }
 
-
-
 // // // // // //Hosting with var, let & const
 // // // // // // console.log(me);
 // // // // // // console.log(job);
@@ -280,7 +267,6 @@
 // // // // // // var me = 'Suraj';
 // // // // // // let job = 'Student';
 // // // // // // const year = 2024;
-
 
 // // // // // // //function
 // // // // // // console.log(addDecl(2, 3));
@@ -297,11 +283,9 @@
 
 // // // // // // const addArrow = (a, b) => a + b;
 
-
 // // // // // // //Example
 // // // // // // var numProduct = 10;
 // // // // // // if (!numProduct) deleteShoppingCart();
-
 
 // // // // // // function deleteShoppingCart() {
 // // // // // //     console.log('All products deleted');
@@ -312,7 +296,6 @@
 // // // // // // var z = 3;
 
 // // // // // // console.log(x === window.x);
-
 
 // // // // // //  ways to call functions
 
@@ -326,14 +309,12 @@
 
 // // // // // // console.log(suraj.calcAge());
 
-
 // // // // // const jonas = {
 // // // // //     firstName: "Suraj",
 // // // // //     year: 1995,
 // // // // //     calcAge: function () {
 // // // // //         console.log(this);
 // // // // //         console.log(2024 - this.year);
-
 
 // // // // //         //Solution 1 - using self or that
 // // // // //     //     const self = this;
@@ -358,7 +339,6 @@
 // // // // // jonas.greet();
 // // // // // jonas.calcAge();
 
-
 // // // // // //Argument Keywords
 // // // // // const addExpr = function (a, b) {
 // // // // //     console.log(arguments);
@@ -367,10 +347,7 @@
 
 // // // // // console.log(addExpr(3, 5, 8, 9, 0));
 
-
 // // // // // var addArrow = (a, b) => a + b;
-
-
 
 // // // // // let age = 30;
 // // // // // let oldAge = age;
@@ -390,7 +367,6 @@
 // // // // // console.log('Friend', friend);
 // // // // // console.log('Me', me);
 
-
 // // // // // // Primitive types
 // // // // // let lastName = 'Williams';
 // // // // // let oldLastName = lastName;
@@ -405,12 +381,11 @@
 // // // // //     age: 24
 // // // // // };
 
-// // // // // const marriedRojina = rojina; 
+// // // // // const marriedRojina = rojina;
 // // // // // marriedRojina.lastName = 'Budhathoki';
 
 // // // // // console.log('Before Marriage', rojina);
 // // // // // console.log("After Marriage", marriedRojina);
-
 
 // // // // // // copying object
 
@@ -424,14 +399,11 @@
 // // // // // const rojinaCopy = Object.assign({}, rojina2);
 // // // // // rojinaCopy.lastName = 'Budhathoki';
 
-
 // // // // // console.log("Before Marriage", rojina2);
 // // // // // console.log("After Marriage", rojinaCopy);
 
 // // // // // rojinaCopy.family.push('Susan');
 // // // // // rojinaCopy.family.push("Surya");
-
-
 
 // // // // const resturant = {
 // // // //     name: 'Classico Italiano',
@@ -464,21 +436,20 @@
 // // // //         console.log(
 // // // //           `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered in ${address} at ${time}`
 // // // //         );
-        
+
 // // // //     },
 
 // // // //     orderPasta: function (ing1, ing2, ing3) {
 // // // //         console.log(`Here is your delicious pasta with ${ing1}, ${ing2} and ${ing3}`);
-        
+
 // // // //     },
-    
+
 // // // //     orderPizza: function (mainIngredient, ...otherIngredient) {
 // // // //         console.log(mainIngredient);
 // // // //         console.log(otherIngredient);
-        
+
 // // // //     }
 // // // // };
-
 
 // // // // resturant.orderPizza('mushroom', 'onion', 'olives', 'spinach');
 // // // // resturant.orderPizza("mushroom");
@@ -493,7 +464,6 @@
 
 // // // // // resturant.orderPasta(...ingredient);
 
-
 // // // // // objects
 
 // // // // const newReaturant = { foundIn: 1998, ...resturant, fouder: 'Suraj Budhathoki' }
@@ -503,7 +473,6 @@
 // // // // resturantCopy.name = 'Suraj Resturant';
 // // // // console.log(resturantCopy.name);
 // // // // console.log(resturant.name);
-
 
 // // // // resturant.orderDelivery({
 // // // //     time: '22:30',
@@ -529,8 +498,7 @@
 // // // // [main, secondary] = [secondary, main];
 // // // // console.log(main, secondary);
 
-
-// // // // const [starter, mainCourse] = resturant.order(2, 0); 
+// // // // const [starter, mainCourse] = resturant.order(2, 0);
 // // // // console.log(starter, mainCourse);
 
 // // // // // Nested structuring
@@ -540,14 +508,9 @@
 // // // // const [i, , [j, k]] = nested;
 // // // // console.log(i, j, k);
 
-
-// // // // //Default values 
+// // // // //Default values
 // // // // const [p=1, q=1, r=1] = [8, 9];
 // // // // console.log(p, q, r);
-
-
-
-
 
 // // // const books = [
 // // //   {
@@ -774,26 +737,20 @@
 // // //   },
 // // // ];
 
-
-
 // // // // console.log(`--------------Rest Syntax-------------`);
 
 // // // // const [ mainKeyword, ...rest ] = books[0].keywords;
-// // // // console.log(mainKeyword); 
+// // // // console.log(mainKeyword);
 // // // // console.log(rest);
 
 // // // // const { publisher: bookPublisher, ...restOfTheBook } = books[1];
 // // // // console.log(bookPublisher, restOfTheBook);
-
 
 // // // // const printBookAuthorsCount = function (title, ...authors) {
 // // // //     console.log(`The book ${title} has ${authors.length} authors`);
 // // // // }
 
 // // // // printBookAuthorsCount("Algorithms", "Robert Sedgewick", "Kevin Wayne", "Suraj Budhathoki");
-
-
-
 
 // // // // const [firstBook, SecondBook] = books;
 // // // // const [, , thirdBook] = books;
@@ -811,7 +768,6 @@
 // // // // console.log(fiveStarRatings, oneStarRatings, threeStarRatings);
 
 // // // // const { title, author, ISBN } = books[0];
-
 
 // // // // const { keywords: tags } = books[0];
 // // // // console.log(tags);
@@ -839,7 +795,6 @@
 // // // // printBookInfo({ title: "Algorithms", author: "Robert Sedgewick" });
 // // // // printBookInfo({ title: 'Algorithms', author: 'Robert Sedgewick', year: '2011' });
 
-
 // // // // const bookAuthors = [...books[0].author, ...books[1].author]
 // // // // console.log("-------------------------------------------")
 // // // // console.log(`The name of book Author Spread Operator ${bookAuthors}`);
@@ -860,18 +815,7 @@
 // // // // const [pizza, , risotto, ...otherFood] = [...resturant.mainMenu, ...resturant.starterMenu];
 // // // // console.log(pizza, risotto, otherFood);
 
-
 // // // // //objects
-
-
-
-
-
-
-
-
-
-
 
 // // // // const arr12 = [7, 8, 9];
 // // // // const badNewArr = [1, 2, arr12[0], arr12[1], arr12[2]];
@@ -901,7 +845,6 @@
 // // // // const { sat, ...weekDays } = resturant.openingHours;
 // // // // console.log(weekDays);
 
-
 // // // // //functions
 
 // // // // const add = function (...numbers) {
@@ -910,7 +853,7 @@
 // // // //     for (let i = 0; i < numbers.length; i++)
 // // // //         sum += numbers[i];
 // // // //     console.log(sum);
-    
+
 // // // // }
 
 // // // // add(2, 3);
@@ -918,7 +861,6 @@
 // // // // add(3, 6, 8, 9, 0, 3, 4);
 // // // // const x1 = [23, 5, 7];
 // // // // add(...x1 );
-
 
 // // const weekdays = ['mon', 'tue', 'wed', 'thurs', 'fri', 'sat', 'sun']
 
@@ -939,15 +881,12 @@
 // //     }
 // // };
 
-
-
 // // const resturant = {
 // //     name: 'Classico Italiano',
 // //     location: 'Sydney, Australia',
 // //     categories: ['Italain', 'Pizzeria', 'Vegetarian', 'Organic'],
 // //     starterMenu: ['Focaccia', 'Bruschetta', 'Garlic Bread', 'Caprese Salad'],
 // //     mainMenu: ['Pizza', 'Pasta', 'Risotto'],
-
 
 // //     // ES^ enhanced onject literal
 // //     openingHours,
@@ -960,27 +899,26 @@
 // //         console.log(
 // //           `Order received! ${this.starterMenu[starterIndex]} and ${this.mainMenu[mainIndex]} will be delivered in ${address} at ${time}`
 // //         );
-        
+
 // //     },
 
 // //     orderPasta(ing1, ing2, ing3) {
 // //         console.log(`Here is your delicious pasta with ${ing1}, ${ing2} and ${ing3}`);
-        
+
 // //     },
-    
+
 // //     orderPizza: function (mainIngredient, ...otherIngredient) {
 // //         console.log(mainIngredient);
 // //         console.log(otherIngredient);
-        
+
 // //     }
 // // };
 
 // // if (resturant.openingHours.mon)
 // //     console.log(resturant.openingHours.mon.open);
 
-// // //optional Chaining 
+// // //optional Chaining
 // // console.log(resturant.openingHours.mon?.open);
-
 
 // // const days = ["mon", "tue", "wed", "thurs", "fri", "sat", "sun"];
 // // for (const day of days) {
@@ -989,8 +927,7 @@
 // //     console.log(`On ${day}, we open at ${open}`)
 // // }
 
-
-// // //calling methods 
+// // //calling methods
 // // console.log(resturant.order123?.(0, 1) ?? "Method does not exits")
 
 // // //optional chaining in arrays
@@ -1015,7 +952,6 @@
 
 // // console.log(openStr);
 
-
 // // const values = Object.values(openingHours);
 // // console.log(values);
 
@@ -1026,7 +962,6 @@
 // // for (const [key, {open, close}] of entries) {
 // //     console.log(`On ${key} we open at ${open} and close at ${close}`);
 // // }
-
 
 // // console.log("----------------Sets and Maps-------------")
 // // const orderSet = new Set(['Pasta', 'Pizza', 'Pizza', 'Risotto', 'Pasta', 'Pizza'])
@@ -1046,7 +981,6 @@
 
 // // for (const order of orderSet)
 // //     console.log(order);
-
 
 // // //Example
 
@@ -1074,7 +1008,7 @@
 // // rest.delete(2);
 // // // rest.clear();
 
-// // const arr = [1, 2] 
+// // const arr = [1, 2]
 // // rest.set(arr, 'Test')
 // // rest.set(document.querySelector('h1', 'Heading'))
 // // console.log(rest);
@@ -1109,11 +1043,9 @@
 
 // // console.log(question.get(answer === question.get('correct')));
 
-
 // // //convert map to arrays
 
 // // console.log([...question])
-
 
 // // console.log("------------Game Challenege---------");
 // // const game = {
@@ -1161,7 +1093,7 @@
 // //     console.log(`Goal ${i + 1}: ${player}`)
 // // }
 
-// // let average = 0; 
+// // let average = 0;
 // // const odds = Object.values(game.odds);
 
 // // for (const odd of odds) {
@@ -1195,7 +1127,6 @@
 // //   [92, "🔶 Yellow card"],
 // // ]);
 
-
 // // const events = [...new Set(gameEvents.values())]
 // // console.log(events);
 
@@ -1205,16 +1136,12 @@
 // // const time1 = [...gameEvents.keys()].pop();
 // // console.log(time1);
 
-// // console.log(`An event happened,on average, every ${time1 / gameEvents.size} minutes`); 
+// // console.log(`An event happened,on average, every ${time1 / gameEvents.size} minutes`);
 
 // // for (const [min, events] of gameEvents) {
 // //     const half = min <= 45 ? "First" : "Second";
 // //     console.log(`[${half} Half] ${min}: ${events}`);
 // // }
-
-
-
-
 
 // // // const [player1, player2] = game.players;
 // // // console.log(player1, player2);
@@ -1239,7 +1166,6 @@
 
 // // // team1 < team2 && console.log(`Team 1 is likely to win`);
 // // // team1 > team2 && console.log(`Team 2 is likely to win`);
-
 
 // // // resturant.numGuest = 0;
 // // // const guests1 = resturant.numGuest || 10;
@@ -1269,7 +1195,6 @@
 // // // const guests2 = resturant.numGuest || 10;
 // // // console.log(guests2);
 
-
 // // // console.log("-------------- AND Operator------------");
 // // // console.log(0 && "Suraj");
 // // // console.log(7 && "Suraj");
@@ -1279,8 +1204,6 @@
 // // // }
 
 // // // resturant.orderPizza && resturant.orderPizza('Mushroom', 'Spinach');
-
-
 
 // // // function hasExamplesInJava(book) {
 // // //     const java = book.programmingLanguage === "Java" || "No data available"
@@ -1293,8 +1216,6 @@
 // // //   books[i].onlineContent &&
 // // //     console.log(`"${books[i].title}" provides online content`);
 // // // }
-
-
 
 // // // for (let i = 0; i < books.length; i++) {
 // // //   books[i].onlineContent ??
@@ -1317,9 +1238,6 @@
 
 // // // console.log(books[1].thirdParty.goodreads.rating);
 // // // console.log(books[1].highlighted);
-
-
-
 
 // // // const rest1 = {
 // // //     name: 'Capri',
@@ -1348,10 +1266,9 @@
 // // //Coding challenge Football game
 
 // const airline = "Suraj ko Airlines";
-// //  
+// //
 
-
-// // Slice method 
+// // Slice method
 // // console.log(plane[0]);
 // // console.log(plane[1]);
 // // console.log(plane[2]);
@@ -1365,7 +1282,6 @@
 // // console.log(airline.slice(4));
 // // console.log(airline.slice(4, 16));
 
-
 // // console.log(airline.slice(0, airline.indexOf(" ")));
 // // console.log(airline.slice(airline.lastIndexOf(" ") + 1));
 // // console.log(airline.slice(-2));
@@ -1378,7 +1294,7 @@
 // //   else {
 // //     console.log("You did not got middle seat");
 // //   }
-    
+
 // // }
 
 // // checkMiddleSeat('11B');
@@ -1390,13 +1306,12 @@
 // console.log(airline.toUpperCase());
 
 // // Fix capitalization in passenger name
-// const passanger = "sUrAJ"; 
+// const passanger = "sUrAJ";
 // const passangerLower = passanger.toLowerCase();
 // const passangerCorrect = passangerLower[0].toUpperCase() + passangerLower.slice(1);
 // console.log(passangerCorrect);
 
-
-// //check emails / comparing email 
+// //check emails / comparing email
 
 // const email = 'tinysuraj143@gmail.com';
 // const loginEmail = ' Tinysuraj143@gmail.com \n';
@@ -1432,10 +1347,9 @@
 //   if (baggage.includes('knife') || baggage.includes('gun')) {
 //     console.log('You are not allowes omn this plane')
 //   }
-//     else 
+//     else
 //     console.log('Welcome Aboard!!!');
-  
-  
+
 // }
 
 // checkBaggage('I have a laptop, some Food and a pocket Knife');
@@ -1448,7 +1362,6 @@
 // const [firstName, lastName] = 'Suraj Budhathoki'.split(' ');
 // const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ')
 // console.log(newName);
-
 
 // // const capitalizeName = function (name) {
 // //   const names = name.split(' ');
@@ -1471,8 +1384,7 @@
 // capitalizeName('rojina bhandari budhathoki');
 // capitalizeName('suraj budhathoki likes rojina bhandari a lot')
 
-
-// //padding 
+// //padding
 // const message = 'Go to gate 23!';
 // console.log(message.padStart(25, '+').padEnd(35, "+"));
 // console.log('Suraj'.padStart(25, '+').padEnd(30, "+"));
@@ -1500,28 +1412,33 @@
 // planesInLine(5);
 // planesInLine(10);
 
-document.body.append(document.createElement("textarea"));
-document.body.append(document.createElement("button"));
-const text = document.querySelector('textarea').value;
+// document.body.append(document.createElement("textarea"));
+// document.body.append(document.createElement("button"));
+// const text = document.querySelector('textarea').value;
 
-document.querySelector('button').addEventListener('click', function () {
-  const text = document.querySelector("textarea").value;
+// document.querySelector('button').addEventListener('click', function () {
+//   const text = document.querySelector("textarea").value;
 
-  const rows = text.split('\n');
-  console.log(rows);
+//   const rows = text.split('\n');
+//   console.log(rows);
 
-  for (const [i, row] of rows.entries()) {
-    const [first, second] = row.toLowerCase().trim().split('_');
-    console.log(first, second);
-    const output = `${first}${second.replace(second[0], second[0].toUpperCase())}`;
-    console.log(`${output.padEnd(20)}${'✅'.repeat(i + 1)}`);
-  }
-});
-    
-    
-    
-    
+//   for (const [i, row] of rows.entries()) {
+//     const [first, second] = row.toLowerCase().trim().split('_');
+//     console.log(first, second);
+//     const output = `${first}${second.replace(second[0], second[0].toUpperCase())}`;
+//     console.log(`${output.padEnd(20)}${'✅'.repeat(i + 1)}`);
+//   }
+// });
 
+// const myLife = "One Day";
+// const makeItDayOne = function () {
+//   return myLife.split(" ").reverse().join(" ");
+// };
+
+// console.log(makeItDayOne());
+
+// const makeItOneDay = (str) => str.split(" ").reverse().join(" ");
+// console.log(makeItDayOne("One Day"));
 
 // const namesUpper = []
 // // //   for (const word of names) {
@@ -1535,13 +1452,12 @@ document.querySelector('button').addEventListener('click', function () {
 //    newName.push(n.replace(n[1], n[1].toUpperCase()))
 //   }
 //   console.log(newName.join(" "));
-  
+
 //   underscore_case
 //  first_name
 // Some_Variable
 //   calculate_AGE
 // delayed_departure
-
 
 // console.log(camelCase("Suraj_budhathoki"));
 // console.log(camelCase("underscore_case"));
@@ -1549,3 +1465,139 @@ document.querySelector('button').addEventListener('click', function () {
 // console.log(camelCase("Some_Variable"));
 // console.log(camelCase("  calculate_AGE"));
 // console.log(camelCase("delayed_departure"));
+
+// const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
+// console.log(movements.includes(-130));
+
+// //some method
+// console.log(movements.some((mov) => mov === -130));
+// const anyDeposits = movements.some((mov) => mov > 1500);
+// console.log(anyDeposits);
+
+// //every method
+// console.log(movements.every((mov) => mov > 0));
+
+// const deposit = (mov) => mov > 0;
+// console.log(movements.some(deposit));
+
+// const arr = [[1, 2, 3], [4, 5, 6], 7, 8];
+// console.log(arr.flat());
+
+// const arrDeep = [[[1, 2], 3], [4, [5, 6], [7]], 7, 8];
+// console.log(arrDeep.flat(2));
+
+// let ratings = [3, 5, 2, 4, 1];
+// let total = 0;
+
+// for (let i = 0; i <= ratings.length - 1; i++) {
+//   total += ratings[i];
+// }
+
+// let average = total / ratings.length;
+// console.log(average);
+
+// let x = NaN;
+// console.log(x === NaN);
+
+// const owner = ["Anusha", "Suraj", "Rojina"];
+// console.log(owner.sort());
+// console.log(owner);
+
+// console.log(movements);
+// movements.sort((a, b) => {
+//   if (a > b) return 1;
+//   else return -1;
+// });
+
+// console.log(movements);
+
+//
+
+// const arr =[1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(new Array(1, 2, 3, 4, 5, 6, 7));
+
+// const x = new Array(7);
+// console.log(x);
+
+// // console.log(x.map(() => 5));
+// // x.fill(1);
+// x.fill(1, 3, 5)
+// console.log(x);
+// console.log(arr);
+// arr.fill(23, 4, 6)
+// console.log(arr);
+
+// const y = Array.from({ length: 7 }, () => 1);
+// console.log(y);
+
+// const z = Array.from({ length: 7 }, (cur, i) => i +1)
+// console.log(z);
+
+// const random = Math.trunc(Math.random() * 6) + 1;
+// console.log(random);
+// const random_dice = Array.from({ length: 100 }, ()=>Math.trunc(Math.random() * 6) + 1 )
+// console.log(random_dice);
+
+const dogs = [
+  { weight: 22, curFood: 250, owners: ["Alice", "Bob"] },
+  { weight: 8, curFood: 200, owners: ["Matilda"] },
+  { weight: 13, curFood: 275, owners: ["Sarah", "John"] },
+  { weight: 32, curFood: 340, owners: ["Michael"] },
+];
+
+//challenege 1
+dogs.forEach((dog) => (dog.recFood = Math.trunc(dog.weight ** 0.75 * 28)));
+// console.log(dogs);
+//challenge 2
+
+const dogSarah = dogs.find((dog) => dog.owners.includes("Sarah"));
+// console.log(dogSarah);
+console.log(
+  `Sarah's dog is eating too ${
+    dogSarah.curFood > dogSarah.recFood ? "much" : "little"
+  } `
+);
+
+//challenege 3
+const ownerEatTooMuch = dogs
+  .filter((dog) => dog.curFood > dog.recFood)
+  .flatMap((dog) => dog.owners);
+console.log(ownerEatTooMuch);
+
+const ownerEatTooLittle = dogs
+  .filter((dog) => dog.curFood < dog.recFood)
+  .flatMap((dog) => dog.owners);
+console.log(ownerEatTooLittle);
+
+//challenege 4
+console.log(`${ownerEatTooMuch.join(" and ")}'s dogs eat too much`);
+console.log(`${ownerEatTooLittle.join(" and ")}'s dogs eat too much`);
+
+//challenge 5
+console.log(dogs.some((dog) => dog.curFood === dog.recFood));
+
+//challenege 6
+
+const checkEatingOkey = (dog) =>
+  dog.curFood > dog.recFood * 0.9 && dog.curFood < dog.recFood * 1.1;
+console.log(dogs.some(checkEatingOkey));
+
+//challenge 7
+console.log(dogs.filter(checkEatingOkey));
+
+//challenge 8
+const dogsCopy = dogs.slice().sort((a, b) => a.recFood - b.recFood);
+console.log(dogsCopy);
+
+let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 13,
+  });
+}
+
+initMap();

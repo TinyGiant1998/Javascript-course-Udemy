@@ -672,3 +672,92 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+/* ChatBot */
+#chat-container {
+  width: 300px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#chat-box {
+  height: 200px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+#user-input {
+  width: 70%;
+  padding: 5px;
+}
+
+#send-btn {
+  width: 25%;
+  padding: 5px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/*Google Translate*/
+/* Positioning */
+#custom-translate {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Button Styling */
+#translate-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#translate-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown Styling */
+#language-list {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.language-option {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.language-option:hover {
+  background: #f1f1f1;
+}
+
+/* Show Dropdown */
+.hidden {
+  display: none !important;
+}
